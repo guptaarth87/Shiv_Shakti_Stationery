@@ -1,0 +1,33 @@
+.nav{
+    height:40px;
+    /* background-image: 	linear-gradient(to right, #ff9482,#7d77ff); */
+    background-color: #b9bfd4;
+}
+
+.navlinks{
+    text-decoration: none;
+    color:rgb(21, 76, 160);
+    background: rgba(255,255,255,0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.5s;
+    transition: 0.5s; 
+    font-size:20px;
+}
+
+@media(max-width:400px){
+    .navlinks{
+        font-size:17px;
+    }
+}
+ 

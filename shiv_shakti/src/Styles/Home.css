@@ -1,0 +1,31 @@
+.wd_{
+    width:3rem;
+}
+
+.footer{
+    background-color:#b9bfd4;
+    color:rgb(21, 76, 160); 
+}
+
+.card{
+    margin:20px;
+}
+.landing_img{
+    height:35rem;
+}
+
+@media(max-width:768px){
+    .landing_img{
+        height:100%;
+    }
+}
+
+.Title{
+    background-color:#b9bfd4;
+    color:rgb(21, 76, 160); 
+}
+
+.icon{
+    height:30px;
+    width:40px;
+}
